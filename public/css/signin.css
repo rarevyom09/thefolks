@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  /* background-image: url(images/tf\ italics\ bg.png); */
+  /* background-size: cover ; */
+  
+}
+.logo{
+    position: relative;
+    margin-top: 45px;
+    /* align-self: center; */
+    right: 5.5%;
+}
+.tagline1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 19px;
+    margin: 0%;
+    /* padding-bottom: 10px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.tagline2{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    padding-top: 8px;
+    /* padding-bottom: 10px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border:solid 2px;
+  border-radius: 0px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+  forced-color-adjust: none;
+  color: rgb(255, 140, 0);
+}
+.subbtn{
+    all:unset;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-top: 16px;
+    /* margin-left: 200px; */
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.footer{
+    /* background-color: rgb(0, 0, 0); */
+    color: rgb(0, 0, 0);
+    align-self: center;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: smaller;
+    /* right: ; */
+    /* left: 50%; */
+}
